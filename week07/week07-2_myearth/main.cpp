@@ -1,4 +1,3 @@
-///全刪,拿剛剛的程式來用!!!
 #include <opencv/highgui.h> ///使用 OpenCV 2.1 比較簡單, 只要用 High GUI 即可
 #include <opencv/cv.h>
 #include <GL/glut.h>
@@ -35,11 +34,11 @@ int main(int argc,char**argv)
 {
     glutInit(&argc,argv);
     glutInitDisplayMode(GLUT_DOUBLE | GLUT_DEPTH);
-    glutCreateWindow("week10 texture background");
+    glutCreateWindow("week7 texture background");
 
     glutIdleFunc(display);
     glutDisplayFunc(display);
-    myTexture("myEarth.jpg");
+    myTexture("earth.jpg");
     sphere = gluNewQuadric();
     glEnable(GL_DEPTH_TEST);
 

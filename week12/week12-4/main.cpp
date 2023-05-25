@@ -16,8 +16,7 @@ void mouse(int button,int state,int x,int y)
 {
     teapotX=(x-150)/150.0;
     teapotY=(150-y)/150.0;
-    if(state==GLUT_DOWN)
-    {
+    if(state==GLUT_DOWN){
         if(fout==NULL) fout=fopen("file4.txt","w");
         fprintf(fout,"%f %f\n",teapotX,teapotY);
     }
@@ -25,24 +24,20 @@ void mouse(int button,int state,int x,int y)
 }
 void keyboard(unsigned char key,int x,int y)
 {
-    if(fin==NULL)
-    {
+    if(fin==NULL){
         fclose(fout);
         fin=fopen("file4.txt","r");
     }
     fscanf(fin,"%f%f",&teapotX,&teapotY);
     display();
 }
-int main(int argc,char** argv)
+int main(int argc,char**argv)
 {
-    glutInit(&argc, argv);
-    glutInitDisplayMode(GLUT_DOUBLE | GLUT_DEPTH);  //設定顯示模式
-    glutCreateWindow("week12");  //視窗名稱
-
-    glutDisplayFunc(display);  //顯示的函式
+    glutInit(&argc,argv);
+    glutInitDisplayMode(GLUT_DOUBLE|GLUT_DEPTH);
+    glutCreateWindow("week12");
+    glutDisplayFunc(display);
     glutKeyboardFunc(keyboard);
     glutMouseFunc(mouse);
-
-    glutMainLoop();  //主要迴圈最後
-
+    glutMainLoop();
 }

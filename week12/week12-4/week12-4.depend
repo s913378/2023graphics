@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1683187288 source:c:\users\administrator\desktop\week12-4\main.cpp
+1683186214 source:c:\users\administrator\desktop\week12-4\main.cpp
 	<stdio.h>
 	<GL/glut.h>
 
@@ -16,8 +16,4 @@
 	<GL/gl.h>
 	<GL/glu.h>
 	<stdlib.h>
-
-1683785445 source:c:\users\administrator\desktop\2023graphics\week12\week12-4\main.cpp
-	<stdio.h>
-	<GL/glut.h>
 

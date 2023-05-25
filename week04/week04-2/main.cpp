@@ -8,7 +8,6 @@ const GLfloat mat_ambient[]    = { 0.7f, 0.7f, 0.7f, 1.0f };
 const GLfloat mat_diffuse[]    = { 0.8f, 0.8f, 0.8f, 1.0f };
 const GLfloat mat_specular[]   = { 1.0f, 1.0f, 1.0f, 1.0f };
 const GLfloat high_shininess[] = { 100.0f };
-
 void myLight()
 {
     glEnable(GL_DEPTH_TEST);
@@ -32,22 +31,22 @@ void myLight()
 float angle=0;
 void display()
 {
-    glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+    glClear(GL_COLOR_BUFFER_BIT|GL_DEPTH_BUFFER_BIT);
     glPushMatrix();
-        glRotated(angle,0,1,0);
-	    glutSolidTeapot(0.3);
+    glRotatef(angle,0,1,0);
+    glutSolidTeapot( 0.3 );
     glPopMatrix();
-	glutSwapBuffers();
-	angle++;
+    glutSwapBuffers();
+    angle++;
 }
 int main(int argc, char *argv[])
 {
-	glutInit(&argc, argv);
-	glutInitDisplayMode(GLUT_RGB | GLUT_DOUBLE | GLUT_DEPTH);
-	glutCreateWindow("week03");
+    glutInit(&argc, argv);
+    glutInitDisplayMode(GLUT_RGB | GLUT_DOUBLE | GLUT_DEPTH);
 
-	myLight();
-	glutDisplayFunc(display);
-	glutIdleFunc(display);
-	glutMainLoop();
+    glutCreateWindow("week04");
+    myLight();
+    glutDisplayFunc(display);
+    glutIdleFunc(display);
+    glutMainLoop();
 }
