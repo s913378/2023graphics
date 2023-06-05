@@ -1,0 +1,169 @@
+# depslib dependency file v1.0
+1685601082 source:c:\users\administrator\desktop\2023graphicsb\week16_all\main.cpp
+	<stdio.h>
+	<GL/glut.h>
+
+1685599217 c:\users\administrator\desktop\2023graphicsb\final_project\freeglut\include\gl\glut.h
+	"freeglut_std.h"
+
+1685599217 c:\users\administrator\desktop\2023graphicsb\final_project\freeglut\include\gl\freeglut_std.h
+	<windows.h>
+	<EGL/egl.h>
+	<GLES/gl.h>
+	<GLES2/gl2.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<stdlib.h>
+
+1685599217 source:c:\users\administrator\desktop\2023graphicsb\week16_all\glm.cpp
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	"glm.h"
+
+1685599217 c:\users\administrator\desktop\2023graphicsb\week16_all\glm.h
+	<GL/glut.h>
+
+1685603303 source:c:\users\administrator\desktop\2023graphics\week16\glm.cpp
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	"glm.h"
+
+1685603303 c:\users\administrator\desktop\2023graphics\week16\glm.h
+	<GL/glut.h>
+
+1685599591 c:\users\administrator\desktop\2023graphics\final_project _end\freeglut\include\gl\glut.h
+	"freeglut_std.h"
+
+1685599591 c:\users\administrator\desktop\2023graphics\final_project _end\freeglut\include\gl\freeglut_std.h
+	<windows.h>
+	<EGL/egl.h>
+	<GLES/gl.h>
+	<GLES2/gl2.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<stdlib.h>
+
+1685607293 source:c:\users\administrator\desktop\2023graphics\week16\main.cpp
+	<stdio.h>
+	<GL/glut.h>
+
+1685630718 source:c:\users\s9133\onedrive\桌面\2023graphics\week16\glm.cpp
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	"glm.h"
+
+1685630718 c:\users\s9133\onedrive\桌面\2023graphics\week16\glm.h
+	<GL/glut.h>
+
+1685630717 c:\users\s9133\onedrive\桌面\2023graphics\final_project _end\freeglut\include\gl\glut.h
+	"freeglut_std.h"
+
+1685630717 c:\users\s9133\onedrive\桌面\2023graphics\final_project _end\freeglut\include\gl\freeglut_std.h
+	<windows.h>
+	<EGL/egl.h>
+	<GLES/gl.h>
+	<GLES2/gl2.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<stdlib.h>
+
+1685634989 source:c:\users\s9133\onedrive\桌面\2023graphics\week16\main.cpp
+	<opencv/highgui.h>
+	<opencv/cv.h>
+	<stdio.h>
+	<GL/glut.h>
+	"glm.h"
+
+1685630718 source:c:\users\s9133\onedrive\桌面\2023graphics\10160305_finalproject\glm.cpp
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	"glm.h"
+
+1685630718 c:\users\s9133\onedrive\桌面\2023graphics\10160305_finalproject\glm.h
+	<GL/glut.h>
+
+1685963195 source:c:\users\s9133\onedrive\桌面\2023graphics\10160305_finalproject\main.cpp
+	<windows.h>
+	<opencv/highgui.h>
+	<opencv/cv.h>
+	<stdio.h>
+	<GL/glut.h>
+	"glm.h"
+	"CMP3_MCI.h"
+
+1685630718 c:\users\s9133\onedrive\桌面\2023graphics\10160305_finalproject\cmp3_mci.h
+	<string>
+	<windows.h>
+	<mmsystem.h>
+
+1685630717 c:\users\s9133\onedrive\桌面\2023graphics\10160305_finalproject\freeglut\include\gl\glut.h
+	"freeglut_std.h"
+
+1685630717 c:\users\s9133\onedrive\桌面\2023graphics\10160305_finalproject\freeglut\include\gl\freeglut_std.h
+	<windows.h>
+	<EGL/egl.h>
+	<GLES/gl.h>
+	<GLES2/gl2.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<stdlib.h>
+
+1685630718 source:c:\users\s9133\onedrive\桌面\10160305finalproject\glm.cpp
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	"glm.h"
+
+1685630718 c:\users\s9133\onedrive\桌面\10160305finalproject\glm.h
+	<GL/glut.h>
+
+1685630717 c:\users\s9133\onedrive\桌面\10160305finalproject\freeglut\include\gl\glut.h
+	"freeglut_std.h"
+
+1685630717 c:\users\s9133\onedrive\桌面\10160305finalproject\freeglut\include\gl\freeglut_std.h
+	<windows.h>
+	<EGL/egl.h>
+	<GLES/gl.h>
+	<GLES2/gl2.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<stdlib.h>
+
+1685963195 source:c:\users\s9133\onedrive\桌面\10160305finalproject\main.cpp
+	<windows.h>
+	<opencv/highgui.h>
+	<opencv/cv.h>
+	<stdio.h>
+	<GL/glut.h>
+	"glm.h"
+	"CMP3_MCI.h"
+
+1685630718 c:\users\s9133\onedrive\桌面\10160305finalproject\cmp3_mci.h
+	<string>
+	<windows.h>
+	<mmsystem.h>
+

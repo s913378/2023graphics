@@ -57,3 +57,33 @@
 	<stdio.h>
 	<GL/glut.h>
 
+1685630718 source:c:\users\s9133\onedrive\桌面\2023graphics\week16\glm.cpp
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	"glm.h"
+
+1685630718 c:\users\s9133\onedrive\桌面\2023graphics\week16\glm.h
+	<GL/glut.h>
+
+1685630717 c:\users\s9133\onedrive\桌面\2023graphics\final_project _end\freeglut\include\gl\glut.h
+	"freeglut_std.h"
+
+1685630717 c:\users\s9133\onedrive\桌面\2023graphics\final_project _end\freeglut\include\gl\freeglut_std.h
+	<windows.h>
+	<EGL/egl.h>
+	<GLES/gl.h>
+	<GLES2/gl2.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<stdlib.h>
+
+1685868910 source:c:\users\s9133\onedrive\桌面\2023graphics\week16\main.cpp
+	<stdio.h>
+	<GL/glut.h>
+	"glm.h"
+
